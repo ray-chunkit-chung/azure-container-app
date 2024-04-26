@@ -9,7 +9,7 @@ PORT = os.environ.get('PORT', 8000)
 
 @app.get("/")
 async def root():
-    return {"Nginx": "I'm alive over TvT v9000 T.T yametekudastop!!!"}
+    return {"Nginx": "I'm alive over TvT v9000.90 T.T yametekudastop!!!"}
 
 # heroku port setting
 if __name__ == "__main__":
