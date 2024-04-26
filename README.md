@@ -69,3 +69,8 @@ az aks create --resource-group $RESOURCE_GROUP --name my-aks --subscription $SUB
 # Configure kubectl to use the credentials from the AKS cluster
 az aks get-credentials --resource-group $RESOURCE_GROUP --subscription $SUBSCRIPTION_ID --name my-aks
 ```
+
+## References
+
+Learn how to deploy a serverless ML inference using FastAPI, AWS Lambda, and API Gateway:
+<https://aws.plainenglish.io/deploy-a-serverless-ml-inference-using-fastapi-aws-lambda-and-api-gateway-32b0b9a40236>
