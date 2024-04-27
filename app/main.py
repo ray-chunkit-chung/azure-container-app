@@ -1,6 +1,7 @@
 from contextlib import asynccontextmanager
 from pydantic import BaseModel
 from fastapi import FastAPI
+import uvicorn
 import os
 
 
