@@ -1,1 +1,7 @@
 README.md
+LICENSE
+.gitignore
+.github/
+.env
+.git/
+local/
