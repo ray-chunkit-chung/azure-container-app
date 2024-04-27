@@ -35,7 +35,7 @@ PORT = os.environ.get("PORT", 8000)
 
 @app.get("/")
 async def root():
-    return {"Nginx": "I'm alive over TvT v9000.48 T.T yametekudastop!!!"}
+    return {"Nginx": "I'm alive over TvT v9000.47 T.T yametekudastop!!!"}
 
 
 @app.post("/predict")
