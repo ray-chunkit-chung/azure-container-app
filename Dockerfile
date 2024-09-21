@@ -4,6 +4,7 @@ FROM unit:1.32.1-python3.11
 ADD https://publicraychung.blob.core.windows.net/text-classifier/models--oshizo--japanese-sexual-moderation-v2.tar.gz /build/huggingface/models--oshizo--japanese-sexual-moderation-v2.tar.gz
 RUN tar -xzvf /build/huggingface/models--oshizo--japanese-sexual-moderation-v2.tar.gz -C /build/huggingface/ \
     && rm /build/huggingface/models--oshizo--japanese-sexual-moderation-v2.tar.gz
+ENV HF_HOME=/build/huggingface
 
 # Unit entrypoint config
 COPY ./config/config.json /docker-entrypoint.d/config.json
